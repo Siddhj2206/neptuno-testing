@@ -9,7 +9,7 @@ COPY system_files /system_files
 COPY flatpaks /flatpaks
 
 # Renovate keeps the digest current; the major is bumped by hand.
-FROM quay.io/fedora-ostree-desktops/base-atomic:45@sha256:eb54b6e50c84ef86b70b33068decf445b24847f96cbf138454ec2b28aa12d3b1
+FROM quay.io/fedora-ostree-desktops/base-atomic:45@sha256:538b7e76f39775641322377bae72301b156e7e43d08bb7bc92f6a2b8d8f12975
 
 # Identity. CI passes IMAGE_NAME from the repository name, so the testing repo
 # publishes neptuno-testing with a matching update reference.
